@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container div {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    transition: all 2s linear;
+}
+
+.item-1 {
+    background-color: rgb(247, 186, 108);
+} 
+
+.item-2 {
+    background-color: rgb(164, 243, 61);
+}
+
+.item-3 {
+    background-color: rgb(89, 146, 252);
+}
+
+.item-1:hover {
+    width: 300px;
+}
+
+.item-2:hover {
+    height: 300px;
+}
+
+.item-3:hover {
+    height: 300px;
+    width: 300px;
+}
